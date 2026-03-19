@@ -6,9 +6,9 @@ class Hooky < Formula
   license "BSD-3-Clause"
 
   bottle do
-    root_url "https://github.com/brandonchinn178/homebrew-tap/releases/download/hooky-1.0.2"
-    sha256 cellar: :any,                 arm64_tahoe:  "27c8652dbe044edc945d0e54833e863bfd0dca6a6639239d3b8a1d8095764e02"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "62e649981a744f4da124b667a4582c953505d47fde12bd43b0c957c71a385b46"
+    root_url "https://github.com/brandonchinn178/homebrew-tap/releases/download/hooky-1.0.3"
+    sha256 cellar: :any,                 arm64_tahoe:  "55b2de7d4b1e6c56405f605869d7a8ff723b09b253dbd6c294820f8ae36410ea"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "4980f8ad9c0707e344ee2faaf31d1854aa6c53216746a49071e8e6f22fd5983d"
   end
 
   depends_on "ghc@9.12" => :build
