@@ -1,8 +1,8 @@
 class Hooky < Formula
   desc "Minimal git hooks manager"
   homepage "https://github.com/brandonchinn178/hooky"
-  url "https://github.com/brandonchinn178/hooky/archive/refs/tags/v1.0.4.tar.gz"
-  sha256 "f1ab5e9537577206bffc95525775eece0a1b85f710ef1f9159e0ed92ac6d2ccf"
+  url "https://github.com/brandonchinn178/hooky/archive/refs/tags/v1.0.5.tar.gz"
+  sha256 "dc2f4d75aeff270ebfbb3e60b5e0bb3fbd487919aa5b2bac2df39dcdbc790fa9"
   license "BSD-3-Clause"
 
   bottle do
